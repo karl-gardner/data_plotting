@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 
-def compile_data(sample="s12345"):
+def compile_data(data, sample="s12345"):
   # preprocess dataframe
   s1_t1 = data[["Sample 1 (320nm)", "Unnamed: 1", "Unnamed: 2"]].to_numpy().astype(float)
   s1_t2 = data[["Sample 1 (320nm)", "Unnamed: 1", "Unnamed: 3"]].to_numpy().astype(float)
