@@ -68,7 +68,7 @@ def make_graph(X,Y,Z,temp,hum,thick,indices,sample="s1234"):
     go.Scatter3d(x=temp[s1_end:s2_end], y=hum[s1_end:s2_end], z=thick[s1_end:s2_end], mode="markers", marker={"symbol": "cross", "color":"black", "size": 17}),
     go.Scatter3d(x=temp[s2_end:s3_end], y=hum[s2_end:s3_end], z=thick[s2_end:s3_end], mode="markers", marker={"symbol": "cross", "color":"black", "size": 17}),
     go.Scatter3d(x=temp[s3_end:s4_end], y=hum[s3_end:s4_end], z=thick[s3_end:s4_end], mode="markers", marker={"symbol": "circle-open", "color":"black", "size": 17}),
-    go.Scatter3d(x=temp[s4_end:], y=hum[s4_end:], z=thick[s4_end:], mode="markers", marker={"symbol": "circle", "color":"black", "size": 14})
+    go.Scatter3d(x=temp[s4_end:], y=hum[s4_end:], z=thick[s4_end:], mode="markers", marker={"symbol": "diamond-open", "color":"black", "size": 14})
     ])
     
   if sample=="s1234":
@@ -89,12 +89,12 @@ def make_graph(X,Y,Z,temp,hum,thick,indices,sample="s1234"):
   if sample=="s4":
     fig = go.Figure(data=[
       go.Surface(x=X, y=Y, z=Z, opacity=0.7, colorscale="YlOrRd",colorbar = {"len":0.75, "thickness": 70, "x": 0.88, "y":0.4, "tickfont":{"size":40}}),
-      go.Scatter3d(x=temp[0:temp.shape[0]], y=hum[0:temp.shape[0]], z=thick[0:temp.shape[0]], mode="markers", marker={"symbol": "cross", "color":"black", "size": 17})
+      go.Scatter3d(x=temp[0:temp.shape[0]], y=hum[0:temp.shape[0]], z=thick[0:temp.shape[0]], mode="markers", marker={"symbol": "circle", "color":"black", "size": 17})
     ])
   if sample=="s5":
     fig = go.Figure(data=[
       go.Surface(x=X, y=Y, z=Z, opacity=0.7, colorscale="YlOrRd",colorbar = {"len":0.75, "thickness": 70, "x": 0.88, "y":0.4, "tickfont":{"size":40}}),
-      go.Scatter3d(x=temp[0:temp.shape[0]], y=hum[0:temp.shape[0]], z=thick[0:temp.shape[0]], mode="markers", marker={"symbol": "cross", "color":"black", "size": 17})
+      go.Scatter3d(x=temp[0:temp.shape[0]], y=hum[0:temp.shape[0]], z=thick[0:temp.shape[0]], mode="markers", marker={"symbol": "circle", "color":"black", "size": 17})
     ])
   return fig
 
