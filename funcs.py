@@ -63,7 +63,6 @@ def make_graph(X,Y,Z,temp,hum,thick,sizes,sample="s1234"):
   s1 = sizes[0]
   s12 = sizes[0]+sizes[1]
   s123 = sizes[0]+sizes[1]+sizes[2]
-  s123 = sizes[0]+sizes[1]+sizes[2]+sizes[3]
   s1234 = sizes[0]+sizes[1]+sizes[2]+sizes[3]
   s12345 = sizes[0]+sizes[1]+sizes[2]+sizes[3]+sizes[4]
   
