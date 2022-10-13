@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
+import matplotlib.pyplot as plt
 
 def compile_data(data, sample="s12345"):
   # preprocess dataframe
