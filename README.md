@@ -81,7 +81,7 @@ This matches Table 2 in the publication:<br><br>
 <details open>
 <summary>Contributions</summary><br>
 
- **Publication Authors:**<br>Karl Gardner, Md Mezbah Uddin, Linh Tran, Thanh Pham, Siva Vanapalli, and Wei Li<br><br>
+ **Publication Authors:**<br>Md Nayeem Hasan Kashem, Karl Gardner1, Wei Li<br><br>
  
- **Publication Acknowledgements:**<br>WL acknowledge support from National Science Foundation (CBET, Grant No. 1935792) and National Institute of Health (IMAT, Grant No. 1R21CA240185-01).
+ **Publication Acknowledgements:**<br>W.L. thanks New Faculty Startup Funds from Texas Tech University (TTU) and funding support from Global Laboratory for Energy Asset Management and Manufacturing (GLEAMM) at TTU.
 </details>
