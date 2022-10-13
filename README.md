@@ -48,8 +48,8 @@ Encapsulation of cells inside microfluidic droplets is central to several applic
 2) Use this link <a href="https://drive.google.com/drive/folders/1KR24B7DwNcC6GkBWmuT2RmLLfYZm9Rxp?usp=sharing">
   <img src="https://user-images.githubusercontent.com/91646805/156700933-5cc77dba-5df1-40c0-94c8-7459abb6402b.svg" height="18"/></a> to access the shared google drive folder
 3) At the top there will be a dropdown arrow after the folder location (Shared with me > data_files): click on this dropdown arrow
-4) Click on the "Add shortcut to Drive" button then navigate to inside your droplet_classification folder and click the blue "Add Shortcut" button.  This will add a shortcut to the shared google drive folder in your droplet_classification folder.
-5) Open the yolov3 colab notebook from the colab badge provided, then click "Save a copy in Drive" under File > Save a copy in Drive.  Do the same for the provided yolov5 colab notebook.
+4) Click on the "Add shortcut to Drive" button then navigate to inside your nanofilm_data folder and click the blue "Add Shortcut" button.  This will add a shortcut to the shared google drive folder in your nanofilm_data folder.
+5) Open the 3d_data colab notebook from the colab badge provided, then click "Save a copy in Drive" under File > Save a copy in Drive.  Do the same for the provided yolov5 colab notebook.
 6) This will save the two notebooks in the "Colab Notebooks" folder in your google drive.  Move these two notebooks to the droplet_classification folder and rename them yolov3.ipynb and yolov5.ipynb respectively in order for the directories to be correct.  The final droplet_classification folder should look like this:<img width="720" alt="image" src="https://user-images.githubusercontent.com/91646805/148874654-890a5d94-f9e9-4273-bcd8-318df44feca4.png">
 
 7) Find the droplet model dataset here: <a href="https://universe.roboflow.com/karl-gardner-kmk9u/pc3dropletdetection2/dataset/8">
