@@ -102,6 +102,28 @@ def make_graph(X,Y,Z,temp,hum,thick,sizes,sample="s1234"):
     ])
   return fig
 
-  
-  
-  
+def get_colors(color_path="/content/drive/MyDrive/nanofilm_data/data_files/bubble_pics"):
+  c1c18c26 = plt.imread(f"{color_path}/c1c18c26.jpg")/255
+  c1c18c26 = [np.mean(c1c18c26[:,:,0]),np.mean(c1c18c26[:,:,1]),np.mean(c1c18c26[:,:,2])]
+  c2c10c27 = plt.imread(f"{color_path}/c2c10c27.jpg")/255
+  c2c10c27 = [np.mean(c2c10c27[:,:,0]),np.mean(c2c10c27[:,:,1]),np.mean(c2c10c27[:,:,2])]
+  c3c11c19c28 = plt.imread(f"{color_path}/c3c11c19c28.jpg")/255
+  c3c11c19c28 = [np.mean(c3c11c19c28[:,:,0]),np.mean(c3c11c19c28[:,:,1]),np.mean(c3c11c19c28[:,:,2])]
+  c4c12c20c29 = plt.imread(f"{color_path}/c4c12c20c29.jpg")/255
+  c4c12c20c29 = [np.mean(c4c12c20c29[:,:,0]),np.mean(c4c12c20c29[:,:,1]),np.mean(c4c12c20c29[:,:,2])]
+  c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32 = plt.imread(f"{color_path}/c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32.jpg")/255
+  c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32 = [np.mean(c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32[:,:,0]),np.mean(c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32[:,:,1]),np.mean(c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32[:,:,2])]
+  c9 = plt.imread(f"{color_path}/c9.jpg")/255
+  c9 = [np.mean(c9[:,:,0]),np.mean(c9[:,:,1]),np.mean(c9[:,:,2])]
+  c17 = plt.imread(f"{color_path}/c17.jpg")/255
+  c17 = [np.mean(c17[:,:,0]),np.mean(c17[:,:,1]),np.mean(c17[:,:,2])]
+  c25 = plt.imread(f"{color_path}/c25.jpg")/255
+  c25 = [np.mean(c25[:,:,0]),np.mean(c25[:,:,1]),np.mean(c25[:,:,2])]
+  colors = np.array([c1c18c26, c2c10c27, c3c11c19c28, c4c12c20c29, c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32, c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32, 
+           c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32, c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32, c9, c2c10c27, c3c11c19c28, c4c12c20c29,
+           c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32, c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32, c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32,
+           c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32, c17, c1c18c26, c3c11c19c28, c4c12c20c29, c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32,
+           c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32, c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32, c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32,
+           c25, c1c18c26, c2c10c27, c3c11c19c28, c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32, c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32, 
+           c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32, c5c6c7c8c13c14c15c16c21c22c23c24c30c31c32])
+  return colors
