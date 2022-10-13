@@ -44,8 +44,8 @@ Encapsulation of cells inside microfluidic droplets is central to several applic
 <summary>Instructions (click to expand)</summary>
 <br>
 
-1) First create a folder in your google drive account called droplet_classification (This step is important in order to keep the directories in check)
-2) Use this link <a href="https://drive.google.com/drive/folders/1Oo68HSdU-jzcBAEr0yeRuzuSxoprEP_D?usp=sharing">
+1) First create a folder in your google drive account called nanofilm_data (This step is important in order to keep the directories in check)
+2) Use this link <a href="https://drive.google.com/drive/folders/1KR24B7DwNcC6GkBWmuT2RmLLfYZm9Rxp?usp=sharing">
   <img src="https://user-images.githubusercontent.com/91646805/156700933-5cc77dba-5df1-40c0-94c8-7459abb6402b.svg" height="18"/></a> to access the shared google drive folder
 3) At the top there will be a dropdown arrow after the folder location (Shared with me > data_files): click on this dropdown arrow
 4) Click on the "Add shortcut to Drive" button then navigate to inside your droplet_classification folder and click the blue "Add Shortcut" button.  This will add a shortcut to the shared google drive folder in your droplet_classification folder.
