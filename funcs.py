@@ -92,9 +92,9 @@ def make_graph(X,Y,Z,temp,hum,thick,sizes,sample="s1234"):
   if sample=="s123":
     fig = go.Figure(data=[
       go.Surface(x=X, y=Y, z=Z, opacity=0.7, colorscale="YlOrRd",colorbar = {"len":0.75, "thickness": 70, "x": 0.88, "y":0.4, "tickfont":{"size":40}}),
-      go.Scatter3d(x=temp[:s1], y=hum[:s1], z=thick[:s1], mode="markers", marker={"symbol": "cross","color":"black", "size": 17}),
-      go.Scatter3d(x=temp[s1:s12], y=hum[s1:s12], z=thick[s1:s12], mode="markers", marker={"symbol": "circle-open", "color":"black", "size": 17}),
-      go.Scatter3d(x=temp[s12:], y=hum[s12:], z=thick[s12:], mode="markers", marker={"symbol": "diamond-open", "color":"black", "size": 17}),
+      go.Scatter3d(x=temp[:s1], y=hum[:s1], z=thick[:s1], mode="markers", marker={"symbol": "cross","color":"black", "size": 10}),
+      go.Scatter3d(x=temp[s1:s12], y=hum[s1:s12], z=thick[s1:s12], mode="markers", marker={"symbol": "circle-open", "color":"black", "size": 8}),
+      go.Scatter3d(x=temp[s12:], y=hum[s12:], z=thick[s12:], mode="markers", marker={"symbol": "diamond-open", "color":"black", "size": 8}),
     ])
   if sample=="s1235":
     fig = go.Figure(data=[
