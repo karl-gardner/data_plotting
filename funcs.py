@@ -15,7 +15,6 @@ def compile_data(data, sample="s1234"):
   s3_t2 = data[["Sample 3 (320nm)", "Unnamed: 13", "Unnamed: 15"]].to_numpy().astype(float)
   s3_t3 = data[["Sample 3 (320nm)", "Unnamed: 13", "Unnamed: 16"]].to_numpy().astype(float)
   s4_t1 = data[["Sample 4 (130nm)", "Unnamed: 20", "Unnamed: 21"]].to_numpy().astype(float)
-  print(".to_numpy()", data[["Sample 4 (130nm)", "Unnamed: 20", "Unnamed: 21"]].to_numpy())
   s4_t2 = data[["Sample 4 (130nm)", "Unnamed: 20", "Unnamed: 22"]].to_numpy().astype(float)
   s5_t1 = data[["Sample 5 (220nm)", "Unnamed: 25", "Unnamed: 26"]].to_numpy().astype(float)
   s5_t2 = data[["Sample 5 (220nm)", "Unnamed: 25", "Unnamed: 27"]].to_numpy().astype(float)
