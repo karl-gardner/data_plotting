@@ -64,7 +64,7 @@ def compile_data(data, sample="s1234"):
 
 
 
-def make_graph(X,Y,Z,temp,hum,thick,sizes,sample="s1234"):
+def make_graph(X,Y,Z,temp,hum,thick,sizes,z_offset,sample="s1234"):
   #define how many datapoints for each sample or combined samples
   s1 = sizes[0]
   s12 = sizes[0]+sizes[1]
