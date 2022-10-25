@@ -74,7 +74,8 @@ def make_graph(X,Y,Z,temp,hum,thick,sizes,z_offset,sample="s1234"):
   
   if sample=="s12345":
     fig = go.Figure(data=[
-      go.Surface(x=X, y=Y, z=Z, opacity=0.7, colorscale="YlOrRd",colorbar = {"len":0.75, "thickness": 70, "x": 0.88, "y":0.4, "tickfont":{"size":40}}),
+      go.Surface(x=X, y=Y, z=Z, opacity=0.7, colorscale="YlOrRd", cmin=np.amin(thick)-z_offset[0], cmax=np.amax(thick)+z_offset[0],
+                 colorbar = {"len":0.75, "thickness": 70, "x": 0.88, "y":0.4, "tickfont":{"size":40}}),
       go.Scatter3d(x=temp[:s1], y=hum[:s1], z=thick[:s1], mode="markers", marker={"symbol": "cross","color":"black", "size": 17}),
       go.Scatter3d(x=temp[s1:s12], y=hum[s1:s12], z=thick[s1:s12], mode="markers", marker={"symbol": "cross", "color":"black", "size": 17}),
       go.Scatter3d(x=temp[s12:s123], y=hum[s12:s123], z=thick[s12:s123], mode="markers", marker={"symbol": "cross", "color":"black", "size": 17}),
@@ -83,7 +84,8 @@ def make_graph(X,Y,Z,temp,hum,thick,sizes,z_offset,sample="s1234"):
     ])
   if sample=="s1234":
     fig = go.Figure(data=[
-      go.Surface(x=X, y=Y, z=Z, opacity=0.7, colorscale="YlOrRd",colorbar = {"len":0.75, "thickness": 70, "x": 0.88, "y":0.4, "tickfont":{"size":40}}),
+      go.Surface(x=X, y=Y, z=Z, opacity=0.7, colorscale="YlOrRd",cmin=np.amin(thick)-z_offset[0], cmax=np.amax(thick)+z_offset[0],
+                 colorbar = {"len":0.75, "thickness": 70, "x": 0.88, "y":0.4, "tickfont":{"size":40}}),
       go.Scatter3d(x=temp[:s1], y=hum[:s1], z=thick[:s1], mode="markers", marker={"symbol": "cross","color":"black", "size": 17}),
       go.Scatter3d(x=temp[s1:s12], y=hum[s1:s12], z=thick[s1:s12], mode="markers", marker={"symbol": "cross", "color":"black", "size": 17}),
       go.Scatter3d(x=temp[s12:s123], y=hum[s12:s123], z=thick[s12:s123], mode="markers", marker={"symbol": "cross", "color":"black", "size": 17}),
@@ -99,7 +101,8 @@ def make_graph(X,Y,Z,temp,hum,thick,sizes,z_offset,sample="s1234"):
     ])
   if sample=="s1235":
     fig = go.Figure(data=[
-      go.Surface(x=X, y=Y, z=Z, opacity=0.7, colorscale="YlOrRd",colorbar = {"len":0.75, "thickness": 70, "x": 0.88, "y":0.4, "tickfont":{"size":40}}),
+      go.Surface(x=X, y=Y, z=Z, opacity=0.7, colorscale="YlOrRd", cmin=np.amin(thick)-z_offset[0], cmax=np.amax(thick)+z_offset[0],
+                 colorbar = {"len":0.75, "thickness": 70, "x": 0.88, "y":0.4, "tickfont":{"size":40}}),
       go.Scatter3d(x=temp[:s1], y=hum[:s1], z=thick[:s1], mode="markers", marker={"symbol": "cross","color":"black", "size": 17}),
       go.Scatter3d(x=temp[s1:s12], y=hum[s1:s12], z=thick[s1:s12], mode="markers", marker={"symbol": "cross", "color":"black", "size": 17}),
       go.Scatter3d(x=temp[s12:s123], y=hum[s12:s123], z=thick[s12:s123], mode="markers", marker={"symbol": "cross", "color":"black", "size": 17}),
@@ -107,12 +110,14 @@ def make_graph(X,Y,Z,temp,hum,thick,sizes,z_offset,sample="s1234"):
     ])
   if sample=="s4":
     fig = go.Figure(data=[
-      go.Surface(x=X, y=Y, z=Z, opacity=0.7, colorscale="YlOrRd",colorbar = {"len":0.75, "thickness": 70, "x": 0.88, "y":0.4, "tickfont":{"size":40}}),
+      go.Surface(x=X, y=Y, z=Z, opacity=0.7, colorscale="YlOrRd",cmin=np.amin(thick)-z_offset[0], cmax=np.amax(thick)+z_offset[0],
+                 colorbar = {"len":0.75, "thickness": 70, "x": 0.88, "y":0.4, "tickfont":{"size":40}}),
       go.Scatter3d(x=temp, y=hum, z=thick, mode="markers", marker={"symbol": "circle", "color":"black", "size": 17})
     ])
   if sample=="s5":
     fig = go.Figure(data=[
-      go.Surface(x=X, y=Y, z=Z, opacity=0.7, colorscale="YlOrRd",colorbar = {"len":0.75, "thickness": 70, "x": 0.88, "y":0.4, "tickfont":{"size":40}}),
+      go.Surface(x=X, y=Y, z=Z, opacity=0.7, colorscale="YlOrRd", cmin=np.amin(thick)-z_offset[0], cmax=np.amax(thick)+z_offset[0],
+                 colorbar = {"len":0.75, "thickness": 70, "x": 0.88, "y":0.4, "tickfont":{"size":40}}),
       go.Scatter3d(x=temp, y=hum, z=thick, mode="markers", marker={"symbol": "circle", "color":"black", "size": 17})
     ])
   return fig
