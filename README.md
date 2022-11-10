@@ -7,8 +7,8 @@
   <a href="https://www.depts.ttu.edu/che/research/li-lab/">
   <img src="https://user-images.githubusercontent.com/91646805/156635015-0cdcb0bb-0482-4693-b096-04f2a78f6b8e.svg" height="32"/></a>
   
-  <a href="https://www.depts.ttu.edu/che/research/li-lab/">
-  <img src="https://user-images.githubusercontent.com/91646805/201214903-9c9c1a02-8a04-494c-b784-14c24203f4aa.svg" height="32"/></a>
+  <a href="https://www.myweb.ttu.edu/bmorshed/">
+  <img src="https://user-images.githubusercontent.com/91646805/201217899-bd074bcc-53e5-4652-aebb-fb776b03e363.svg" height="32"/></a>
 
   <a href="https://www.depts.ttu.edu/che/">
   <img src="https://user-images.githubusercontent.com/91646805/156641068-be8f0336-89b5-43e9-aa64-39481ce37c94.svg" height="32"/></a>
