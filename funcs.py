@@ -131,7 +131,6 @@ def add_border(im_path = "/chromaticity.png"):
   imgray[1000:2000,800:1600] = 0
   ret, thresh = cv2.threshold(imgray, 250,255,0)
   contours, hierarchy = cv2.findContours(thresh,cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-  print('Number of Contours: ' + str(len(contours)))
   cv2.drawContours(cropped,contours,-1,(0, 0, 0), 5)
   img[430:3020,630:3320] = cropped[30:-30,30:-30]
   cv2.imwrite(im_path,img)
