@@ -44,7 +44,7 @@ A colorimetric temperature-sensitive film has been reported for monitoring a wid
 3) At the top there will be a dropdown arrow after the folder location (Shared with me > data_files): click on this dropdown arrow
 4) Click on the "Add shortcut to Drive" button then navigate to inside your nanofilm_data folder and click the blue "Add Shortcut" button.  This will add a shortcut to the shared google drive folder in your nanofilm_data folder.
 5) Open the regression colab notebook from the colab badge provided, then click "Save a copy in Drive" under File > Save a copy in Drive.  Do the same for the provided chromaticity_bubble colab notebook.
-6) This will save the two notebooks in the "Colab Notebooks" folder in your google drive.  Move these two notebooks to the nanofilm_data folder and rename them regression.ipynb and chromaticity_bubble.ipynb respectively in order for the directories to be correct.  The final nanofilm_data folder should look like this:<img width="720" alt="image" src="https://user-images.githubusercontent.com/91646805/148874654-890a5d94-f9e9-4273-bcd8-318df44feca4.png">
+6) This will save the two notebooks in the "Colab Notebooks" folder in your google drive.  Move these two notebooks to the nanofilm_data folder and rename them regression.ipynb and chromaticity_bubble.ipynb respectively in order for the directories to be correct.  The final nanofilm_data folder should look like this:<img width="720" alt="image" src="https://user-images.githubusercontent.com/91646805/201209147-3454e416-feac-42c3-a7ae-48592ea87b12.png">
 
 
 7) Find the droplet model dataset here: <a href="https://universe.roboflow.com/karl-gardner-kmk9u/pc3dropletdetection2/dataset/8">
