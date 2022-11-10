@@ -20,11 +20,11 @@
   <img src="https://user-images.githubusercontent.com/91646805/201202867-415be87e-dfd7-4c95-a215-b9a0ef96446d.svg" height="32"/></a>
   
   <a href="https://colab.research.google.com/github/karl-gardner/droplet_detection/blob/master/yolov3.ipynb">
-  <img src="https://user-images.githubusercontent.com/91646805/156640198-51f0ef4c-21c1-4d0f-aebd-861561dede95.svg" height="32"/></a>
-  
+  <img src="https://user-images.githubusercontent.com/91646805/201204243-a6179f59-575d-443c-8bf6-1384b1c835ab.svg" height="32"/></a>
+
   <a href="https://colab.research.google.com/github/karl-gardner/droplet_detection/blob/master/yolov5.ipynb">
-  <img src="https://user-images.githubusercontent.com/91646805/156640073-0a7ad496-7691-4e1c-822c-b78f3e7d070b.svg" height="32"/></a>
-  
+  <img src="https://user-images.githubusercontent.com/91646805/201204458-be4da525-c57b-4fc5-9b15-5353dbd0515f.svg" height="32"/></a>
+
   <a href="https://github.com/ultralytics">
   <img src="https://user-images.githubusercontent.com/91646805/156641066-fbc3635b-f373-4cb7-b141-9bcaad21beff.svg" height="32"/></a>
 
