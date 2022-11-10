@@ -17,8 +17,8 @@
   <img src="https://user-images.githubusercontent.com/91646805/156641388-c609a6aa-8fce-47f0-a111-abfde9c5da05.svg" height="32"/></a><br>
   
   <a href="https://www.sciencedirect.com/journal/chemical-engineering-journal">
-  <img src="https://user-images.githubusercontent.com/91646805/201202867-415be87e-dfd7-4c95-a215-b9a0ef96446d.svg" height="32"/></a>
-  
+  <img src="https://user-images.githubusercontent.com/91646805/201205256-eae01399-6813-46a1-ac6f-e3a33ad3d2fc.svg" height="32"/></a>
+
   <a href="https://colab.research.google.com/github/karl-gardner/nanofilm_data/blob/main/regression.ipynb">
   <img src="https://user-images.githubusercontent.com/91646805/201204243-a6179f59-575d-443c-8bf6-1384b1c835ab.svg" height="32"/></a>
 
