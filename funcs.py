@@ -76,11 +76,11 @@ def make_graph(X,Y,Z,temp,hum,thick,sizes,z_offset,sample="s1234"):
     fig = go.Figure(data=[
       go.Surface(x=X, y=Y, z=Z, opacity=0.7, colorscale="YlOrRd", cmin=np.amin(thick)-z_offset[0], cmax=np.amax(thick)+z_offset[0],
                  colorbar = {"len":0.75, "thickness": 70, "x": 0.88, "y":0.4, "tickfont":{"size":40}}),
-      go.Scatter3d(x=temp[:s1], y=hum[:s1], z=thick[:s1], mode="markers", marker={"symbol": "cross","color":"black", "size": 17}),
-      go.Scatter3d(x=temp[s1:s12], y=hum[s1:s12], z=thick[s1:s12], mode="markers", marker={"symbol": "cross", "color":"black", "size": 17}),
-      go.Scatter3d(x=temp[s12:s123], y=hum[s12:s123], z=thick[s12:s123], mode="markers", marker={"symbol": "cross", "color":"black", "size": 17}),
-      go.Scatter3d(x=temp[s123:s1234], y=hum[s123:s1234], z=thick[s123:s1234], mode="markers", marker={"symbol": "circle-open", "color":"black", "size": 17}),
-      go.Scatter3d(x=temp[s1234:], y=hum[s1234:], z=thick[s1234:], mode="markers", marker={"symbol": "diamond-open", "color":"black", "size": 14})
+      go.Scatter3d(x=temp[:s1], y=hum[:s1], z=thick[:s1], mode="markers", marker={"symbol": "cross","color":"black", "size": 10}),
+      go.Scatter3d(x=temp[s1:s12], y=hum[s1:s12], z=thick[s1:s12], mode="markers", marker={"symbol": "cross", "color":"black", "size": 10}),
+      go.Scatter3d(x=temp[s12:s123], y=hum[s12:s123], z=thick[s12:s123], mode="markers", marker={"symbol": "cross", "color":"black", "size": 10}),
+      go.Scatter3d(x=temp[s123:s1234], y=hum[s123:s1234], z=thick[s123:s1234], mode="markers", marker={"symbol": "circle-open", "color":"black", "size": 10}),
+      go.Scatter3d(x=temp[s1234:], y=hum[s1234:], z=thick[s1234:], mode="markers", marker={"symbol": "diamond-open", "color":"black", "size": 7})
     ])
   if sample=="s1234":
     fig = go.Figure(data=[
