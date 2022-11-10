@@ -122,6 +122,19 @@ def make_graph(X,Y,Z,temp,hum,thick,sizes,z_offset,sample="s1234"):
     ])
   return fig
 
+def add_border(im_path = "/chromaticity.png"):
+  img = cv2.imread(im_path)
+  img_copy = np.copy(img)
+  cropped = img_copy[400:3050,600:3350]
+  imgray = cv2.cvtColor(cropped,cv2.COLOR_BGR2GRAY)
+  imgray[1000:2000,800:1600] = 0
+  ret, thresh = cv2.threshold(imgray, 250,255,0)
+  contours, hierarchy = cv2.findContours(thresh,cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+  print('Number of Contours: ' + str(len(contours)))
+  cv2.drawContours(cropped,contours,-1,(0, 0, 0), 5)
+  img[430:3020,630:3320] = cropped[30:-30,30:-30]
+  cv2.imwrite(im_path,img)
+
 def get_colors(color_path="/content/drive/MyDrive/nanofilm_data/data_files/bubble_pics"):
   c1c18c26 = plt.imread(f"{color_path}/c1c18c26.jpg")/255
   c1c18c26 = [np.mean(c1c18c26[:,:,0]),np.mean(c1c18c26[:,:,1]),np.mean(c1c18c26[:,:,2])]
