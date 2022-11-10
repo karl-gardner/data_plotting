@@ -8,7 +8,7 @@
   <img src="https://user-images.githubusercontent.com/91646805/156635015-0cdcb0bb-0482-4693-b096-04f2a78f6b8e.svg" height="32"/></a>
   
   <a href="https://www.sciencedirect.com/journal/chemical-engineering-journal">
-  <img src="https://user-images.githubusercontent.com/91646805/201201792-6fd10f93-faa5-457a-898e-9a9192b1744d.png" height="32"/></a>
+  <img src="https://user-images.githubusercontent.com/91646805/201202386-d9b46830-8537-4d37-801c-923278951075.jpg" height="32"/></a>
 
 
   <a href="https://www.depts.ttu.edu/che/">
