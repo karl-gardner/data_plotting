@@ -7,8 +7,8 @@
   <a href="https://www.depts.ttu.edu/che/research/li-lab/">
   <img src="https://user-images.githubusercontent.com/91646805/156635015-0cdcb0bb-0482-4693-b096-04f2a78f6b8e.svg" height="32"/></a>
   
-  <a href="https://www.sciencedirect.com/journal/chemical-engineering-journal">
-  <img src="https://user-images.githubusercontent.com/91646805/201202867-415be87e-dfd7-4c95-a215-b9a0ef96446d.svg" height="32"/></a>
+  <a href="https://www.depts.ttu.edu/che/research/li-lab/">
+  <img src="https://user-images.githubusercontent.com/91646805/201203491-77f0f264-f11f-4381-95e0-516ec25574f4.svg" height="32"/></a>
 
   <a href="https://www.depts.ttu.edu/che/">
   <img src="https://user-images.githubusercontent.com/91646805/156641068-be8f0336-89b5-43e9-aa64-39481ce37c94.svg" height="32"/></a>
