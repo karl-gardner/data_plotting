@@ -80,7 +80,7 @@ def make_graph(X,Y,Z,temp,hum,thick,sizes,z_offset,sample="s1234"):
       go.Scatter3d(x=temp[s1:s12], y=hum[s1:s12], z=thick[s1:s12], mode="markers", marker={"symbol": "cross", "color":"black", "size": 10}),
       go.Scatter3d(x=temp[s12:s123], y=hum[s12:s123], z=thick[s12:s123], mode="markers", marker={"symbol": "cross", "color":"black", "size": 10}),
       go.Scatter3d(x=temp[s123:s1234], y=hum[s123:s1234], z=thick[s123:s1234], mode="markers", marker={"symbol": "circle-open", "color":"black", "size": 10}),
-      go.Scatter3d(x=temp[s1234:], y=hum[s1234:], z=thick[s1234:], mode="markers", marker={"symbol": "diamond-open", "color":"black", "size": 5})
+      go.Scatter3d(x=temp[s1234:], y=hum[s1234:], z=thick[s1234:], mode="markers", marker={"symbol": "diamond-open", "color":"black", "size": 6})
     ])
   if sample=="s1234":
     fig = go.Figure(data=[
