@@ -123,7 +123,7 @@ def make_graph(X,Y,Z,temp,hum,thick,sizes,z_offset,sample="s1234"):
     ])
   return fig
 
-def add_border(im_path = "/chromaticity.png"):
+def add_border(im_path = "/absorption.png"):
   img = cv2.imread(im_path)
   img_copy = np.copy(img)
   cropped = img_copy[400:3050,600:3350]
