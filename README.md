@@ -10,15 +10,14 @@
   <a href="https://www.sciencedirect.com/journal/chemical-engineering-journal">
   <img src="https://user-images.githubusercontent.com/91646805/201202867-415be87e-dfd7-4c95-a215-b9a0ef96446d.svg" height="32"/></a>
 
-
   <a href="https://www.depts.ttu.edu/che/">
   <img src="https://user-images.githubusercontent.com/91646805/156641068-be8f0336-89b5-43e9-aa64-39481ce37c94.svg" height="32"/></a>
   
   <a href="https://roboflow.com/">
   <img src="https://user-images.githubusercontent.com/91646805/156641388-c609a6aa-8fce-47f0-a111-abfde9c5da05.svg" height="32"/></a><br>
   
-  <a href="https://www.rsc.org/journals-books-databases/about-journals/lab-on-a-chip/">
-  <img src="https://user-images.githubusercontent.com/91646805/169677461-13cb1d50-e7cf-457e-8777-cc6df29ce0bd.svg" height="32"/></a>
+  <a href="https://www.sciencedirect.com/journal/chemical-engineering-journal">
+  <img src="https://user-images.githubusercontent.com/91646805/201202867-415be87e-dfd7-4c95-a215-b9a0ef96446d.svg" height="32"/></a>
   
   <a href="https://colab.research.google.com/github/karl-gardner/droplet_detection/blob/master/yolov3.ipynb">
   <img src="https://user-images.githubusercontent.com/91646805/156640198-51f0ef4c-21c1-4d0f-aebd-861561dede95.svg" height="32"/></a>
