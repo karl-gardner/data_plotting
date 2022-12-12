@@ -34,19 +34,7 @@ A colorimetric temperature-sensitive film has been reported for monitoring a wid
 <img width="850" alt="image" src="https://user-images.githubusercontent.com/91646805/195671136-e5d19ef3-b5f3-46b9-a229-90c74b0341c2.png">
 
 
-<details>
-<summary>Instructions (click to expand)</summary>
-<br>
 
-1) First create a folder in your google drive account called nanofilm_data (This step is important in order to keep the directories in check)
-2) Use this link <a href="https://drive.google.com/drive/folders/1KR24B7DwNcC6GkBWmuT2RmLLfYZm9Rxp?usp=sharing">
-  <img src="https://user-images.githubusercontent.com/91646805/156700933-5cc77dba-5df1-40c0-94c8-7459abb6402b.svg" height="18"/></a> to access the shared google drive folder
-3) At the top there will be a dropdown arrow after the folder location (Shared with me > data_files): click on this dropdown arrow
-4) Click on the "Add shortcut to Drive" button then navigate to inside your nanofilm_data folder and click the blue "Add Shortcut" button.  This will add a shortcut to the shared google drive folder in your nanofilm_data folder.
-5) Open the regression colab notebook from the colab badge provided, then click "Save a copy in Drive" under File > Save a copy in Drive.  Do the same for the provided chromaticity_bubble colab notebook.
-6) This will save the two notebooks in the "Colab Notebooks" folder in your google drive.  Move these two notebooks to the nanofilm_data folder and rename them regression.ipynb and chromaticity_bubble.ipynb respectively in order for the directories to be correct.  The final nanofilm_data folder should look like this:<img width="720" alt="image" src="https://user-images.githubusercontent.com/91646805/201209147-3454e416-feac-42c3-a7ae-48592ea87b12.png">
-
-</details>
 
 <details>
 <summary>Testing (click to expand)</summary><br>
@@ -70,7 +58,7 @@ This matches Table 2 in the publication:<br><br>
 <details open>
 <summary>Contributions</summary><br>
 
- **Publication Authors:**<br>Md Nayeem Hasan Kashem, Karl Gardner1, Wei Li<br><br>
+ **Publication Authors:**<br>Md Nayeem Hasan Kashem, Karl Gardner, Moriom Rojy Momota, Bashir I. Morshed, Wei Li<br><br>
  
  **Publication Acknowledgements:**<br>W.L. thanks New Faculty Startup Funds from Texas Tech University (TTU) and funding support from Global Laboratory for Energy Asset Management and Manufacturing (GLEAMM) at TTU.
 </details>
