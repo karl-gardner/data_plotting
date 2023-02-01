@@ -34,26 +34,6 @@ A colorimetric temperature-sensitive film has been reported for monitoring a wid
 <img width="850" alt="image" src="https://user-images.githubusercontent.com/91646805/207136192-4b64f6e1-b487-459e-99ed-3e6630220171.PNG">
 
 
-
-<details>
-<summary>Testing (click to expand)</summary><br>
-Nearly all figures and tables from the paper are outlined in yolov3.ipynb and yolov5.ipynb colab notebooks. For example Table 2 displays the annotation summary for cell and droplet models before augmentations. This can be shown in section 2.1 of the colab notebook:<br><br>
-<img src="https://user-images.githubusercontent.com/91646805/186248580-b9d22a03-ee4f-451f-bd5e-19af2ee4fb01.PNG"/></a>
-<br><br>
-You may run this for example by first uncommenting section 1.1 labeled "Data with No Augmentation (No_Augmentation)":<br><br>
-<img src="https://user-images.githubusercontent.com/91646805/186249216-0d38a78b-a25b-436e-919b-e94f19776039.PNG"/></a>
-<br><br>
-then uncommenting section 2. labeled: "For droplet model". Then the following output will be printed:<br><br>
-<img src="https://user-images.githubusercontent.com/91646805/186249418-e3420c46-20d0-4803-bd65-38fe8fb1bea1.PNG"/></a>
-<br><br>
-The same procedure can be used for the cell model to produce the following result:<br><br>
-<img src="https://user-images.githubusercontent.com/91646805/186249529-27c786d9-fb73-47a9-9590-dcc8f5fd277f.PNG"/></a>
-<br><br>
-This matches Table 2 in the publication:<br><br>
-<img src="https://user-images.githubusercontent.com/91646805/186249617-8fddc568-d50a-443b-a4b3-fb9186071308.PNG"/></a>
-
-</details>
-
 <details open>
 <summary>Contributions</summary><br>
 
