@@ -13,7 +13,7 @@
   <a href="https://www.depts.ttu.edu/che/">
   <img src="https://user-images.githubusercontent.com/91646805/156641068-be8f0336-89b5-43e9-aa64-39481ce37c94.svg" height="32"/></a>
   
-  <a href="https://roboflow.com/">
+  <a href="https://www.sigmaaldrich.com/US/en/technical-documents/technical-article/materials-science-and-engineering/drug-delivery/layer-by-layer-lbl">
   <img src="https://user-images.githubusercontent.com/91646805/156641388-c609a6aa-8fce-47f0-a111-abfde9c5da05.svg" height="32"/></a><br>
   
   <a href="https://www.sciencedirect.com/journal/chemical-engineering-journal">
