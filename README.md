@@ -30,7 +30,7 @@
 A colorimetric temperature-sensitive film has been reported for monitoring a wide range of temperatures with anticounterfeiting and sensor applications. The film has been prepared by layer-by-layer film deposition technique using chitosan solution (polycation) and carboxymethyl cellular azide (CMC-N3) solution (polyanion). We showed that the hydrophilic film could change the thickness by absorbing or desorbing moistures at different temperatures under fixed relative humidity (RH) and showed different uniform structural colors due to interference of light. The color-changing behavior in response to temperatures was tunable with respect to film thickness and RH. Furthermore, the film was patternable under UV light due to the azide group (-N3) in the polymeric backbone. The patterns stay hidden at room temperature which could be revealed in two ways under certain temperatures and RH: localized exposure to high relative humidity and spontaneous absorption of moisture under specific temperatures and RH. A simple correlation also reported for the prediction of thickness dependent behavior of the film with respect to temperature and relative humidity. Utilizing the pattern-revealing property and temperature sensitive color changing behavior, unique applications of the film as a temperature sensor was also demonstrated.
 </div>
 
-<img width="850" alt="image" src="https://user-images.githubusercontent.com/91646805/224418216-7b1e4f68-a30a-47f8-95a9-13a3501ff7ad.png">
+<img width="850" alt="image" src="https://user-images.githubusercontent.com/91646805/224419801-4c37f953-1e1e-480c-9a1a-312d01f6d0f3.png">
 
 
 <details open>
